@@ -1,0 +1,31 @@
+git config --global core.autocrlf false
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git init
+git status
+git add .
+
+git commit -m "Initial commit" (commit the added files)
+
+git log (see the commit history)
+
+git remote add origin https://github.com/<user-name>/<repository-name>.git
+git branch -M main
+git push -u origin main
+
+git push (for second commit)
+
+Cloning
+--------
+git clone https://github.com/<user-name>/<repository-name>.git
+
+Creating new repository
+
+echo "# Hello World" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/<user-name>/<repository-name>.git
+git push -u origin main
